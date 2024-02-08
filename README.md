@@ -1,6 +1,11 @@
 # README
 This file is in TODO
 
+Related works:
+
+* [Optimize Vision Transformer Architecture via Efficient Attention Modules: A Study on the Monocular Depth Estimation Task](https://www.researchgate.net/publication/377643419_Optimize_Vision_Transformer_Architecture_via_Efficient_Attention_Modules_A_Study_on_the_Monocular_Depth_Estimation_Task)
+* [EfficientViT: Memory Efficient Vision Transformer with Cascaded Group Attention](https://arxiv.org/pdf/2305.07027.pdf)
+
 This work aimed to adopt EfficientVit architecture, on METER depth estimation models, to analyze performance and seek for improvements.
 
 Original METER models are:

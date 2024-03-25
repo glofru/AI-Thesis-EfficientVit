@@ -29,17 +29,17 @@ Variations studied in this work:
 ### METER
 | Model    | RMSE | MAE | Abs rel | &delta;1 | &delta;2 | &delta;3 | Parameters number |
 | -------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
-| METER  | 47.035 |35.151|0.137|0.816|0.962|0.990|3,295,168|
-| MetaMETER | 49.129 |36.650|0.144|0.811|0.959|0.988|3,220,864|
-| PyraMETER | 48.424 |36.350|0.142|0.817|0.960|0.989|5,527,168|
+| METER  | 48.440 | 36.270 |0.143|0.819|0.959|0.988|3,295,168|
+| MetaMETER | 50.758 |37.860|0.150|0.802|0.950|0.988|3,220,864|
+| PyraMETER | 49.159 |36.690|0.145|0.809|0.957|0.987|5,527,168|
 
 ### EfficientVit
 | Model    | RMSE | MAE | Abs rel | &delta;1 | &delta;2 | &delta;3 | Parameters number |
 | -------- | ------- | ------- | ------- | ------- | ------- | ------- | ------- |
 |EfficientVit|58.878|44.828|0.172|0.734|0.933|0.982|2,627,668|
-|MobileEfficientVit|50.688|37.751|0.147|0.807|0.957|0.988|1,233,612|
-|MetaEfficientVit|52.647|39.647|0.156|0.782|0.950|0.988|1,158,112|
-|PyraEfficientVit|TODO
+|MobileEfficientVit|47.525|35.344|0.138|0.825|0.962|0.989|3,288,415|
+|MetaEfficientVit|51.162|38.462|0.149|0.793|0.950|0.987|3,115,696|
+|PyraEfficientVit|47.710|35.718|0.140|0.818|0.963|0.989|3,309,115|
 
 
 ## Time metrics
@@ -47,14 +47,14 @@ Note: GPU is NVIDIA RTX GeForce 4090
 ### METER
 | Model    | Average CPU (ms) |  P90 CPU (ms) | Average GPU (ms) | P90 GPU (ms) |
 | -------- | ------- | ------- | ------- | ------- |
-|METER | 17.879|18.073|4.041|4.186|
+|METER | 17.879|18.679|4.944|4.186|
 |MetaMeter|15.370|15.770|3.625|3.792|
-|PyraMETER|TODO||||
+|PyraMETER|15.203|16.401|4.465|4.573|
 
 ### EfficientVit
 | Model    | Average CPU (ms) |  P90 CPU (ms) | Average GPU (ms) | P90 GPU (ms) |
 | -------- | ------- | ------- | ------- | ------- |
 |EfficientVit|13.305|13.941|8.367|8.430|
-|MobileEfficientVit|13.956|15.099|5.350|5.478|
-|MetaEfficientVit|11.558|12.202|3.004|3.306|
-|PyraEfficientVit|TODO
+|MobileEfficientVit|15.663|16.304|7.031|7.185|
+|MetaEfficientVit|12.441|12.821|2.913|3.114|
+|PyraEfficientVit|11.081|14.125|8.759|9.735|
